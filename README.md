@@ -62,7 +62,7 @@ A plugin for PowerToys Run enabling developers to quickly launch the Gemini webs
 ### Developer Installation (PowerToys)
 1.  Clone this repository or download the plugin source/build.
 2.  To add the plugin to PowerToys Run:
-    * Refer to the official PowerToys documentation on third-party plugin installation for PowerToys Run: [PowerToys Run plugin overview - Installing third party plugins](https://learn.microsoft.com/en-us/windows/powertoys/run#installing-third-party-plugins) (Note: You'll typically place the plugin in a specific folder like `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins`).
+    * Refer to the official PowerToys documentation on third-party plugin installation for PowerToys Run: [PowerToys Run plugin overview - Installing third party plugins]([https://learn.microsoft.com/en-us/windows/powertoys/run#installing-third-party-plugins](https://github.com/microsoft/PowerToys/blob/main/doc/thirdPartyRunPlugins.md?ref=chswei.com)]) (Note: You'll typically place the plugin in a specific folder like `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins`).
 
 <a name="usage-powertoys"></a>
 ### Usage (PowerToys)
