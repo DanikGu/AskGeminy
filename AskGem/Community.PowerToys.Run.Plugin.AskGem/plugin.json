@@ -1,0 +1,14 @@
+{
+  "ID": "55597B78746847AD85E3F12A9766229B",
+  "ActionKeyword": "gem",
+  "IsGlobal": false,
+  "Name": "AskGem",
+  "Author": "danikgu",
+  "Version": "0.1.0",
+  "Language": "csharp",
+  "Website": "https://github.com/danikgu/",
+  "ExecuteFileName": "Community.PowerToys.Run.Plugin.AskGem.dll",
+  "IcoPathDark": "Images\\askgem.dark.png",
+  "IcoPathLight": "Images\\askgem.light.png",
+  "DynamicLoading": false
+}

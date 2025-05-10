@@ -1,0 +1,21 @@
+{
+  "name": "AskGeminy",
+  "description": "Simple Exstension that will click mic button or prefill chat with geminy from url parametrs",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://gemini.google.com/*"
+      ],
+      "js": [
+        "ondocend.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
