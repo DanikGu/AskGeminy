@@ -27,31 +27,6 @@ This Chrome Extension enhances your experience on the Gemini website (`gemini.go
 * **URL Query Prefill:** Automatically populates the query input field on the Gemini website if a query is provided as a URL parameter (e.g., `gemini.google.com/app?customquery=your+query`).
 * **Automatic Microphone Activation:** Optionally starts microphone input automatically when you navigate to the Gemini website, allowing for immediate voice commands. (Requires user permission for microphone access).
 
-<a name="installation-chrome"></a>
-### Installation (Chrome)
-
-**Method 1: From the Chrome Web Store (Recommended)**
-* (Link to be added once the extension is published)
-
-**Method 2: Manual Installation (For Developers)**
-1.  Download the latest release `.zip` file from the [Releases](../../releases) page or clone this repository.
-2.  If downloaded, unzip the file to a dedicated folder on your computer.
-3.  Open Google Chrome and navigate to `chrome://extensions`.
-4.  Enable "Developer mode" using the toggle switch in the top-right corner.
-5.  Click on the "Load unpacked" button.
-6.  Select the directory where you unzipped/cloned the extension files.
-
-<a name="usage-chrome"></a>
-### Usage (Chrome)
-
-* **URL Query Prefill:**
-    * Simply navigate to a URL like `https://gemini.google.com/app?q=What+is+the+capital+of+France%3F`.
-    * The extension will detect the `q` parameter and prefill "What is the capital of France?" into the Gemini query box.
-* **Automatic Microphone Activation:**
-    * The first time you visit `gemini.google.com` after installing the extension, you might be prompted to grant microphone access.
-    * Once permission is granted (if the feature is enabled in extension settings), the microphone will be ready for input as soon as the Gemini page loads.
-    * Check the extension's options page (if available) for any configuration related to this feature.
-
 ---
 
 ## Gemini Quick Launcher (PowerToys Plugin)
