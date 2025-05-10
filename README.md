@@ -24,7 +24,7 @@ This Chrome Extension enhances your experience on the Gemini website (`gemini.go
 
 <a name="features-chrome"></a>
 ### Features
-* **URL Query Prefill:** Automatically populates the query input field on the Gemini website if a query is provided as a URL parameter (e.g., `gemini.google.com/app?q=your+query`).
+* **URL Query Prefill:** Automatically populates the query input field on the Gemini website if a query is provided as a URL parameter (e.g., `gemini.google.com/app?customquery=your+query`).
 * **Automatic Microphone Activation:** Optionally starts microphone input automatically when you navigate to the Gemini website, allowing for immediate voice commands. (Requires user permission for microphone access).
 
 <a name="installation-chrome"></a>
