@@ -45,25 +45,13 @@ This plugin for PowerToys Run allows you to quickly open the Gemini website in y
 
 <a name="installation-powertoys"></a>
 ### Installation (PowerToys)
-1.  Download the latest plugin release from the [Releases](../../releases) page.
+1.  Build Powertoys plugin, publish.
 2.  Ensure PowerToys is not running (Exit from the system tray).
 3.  Locate your PowerToys Run plugins directory. This is typically found at:
     * `%LOCALAPPDATA%\Microsoft\PowerToys\PowerToys Run\Plugins`
     * Or, if installed for all users: `C:\Program Files\PowerToys\RunPlugins`
-4.  Extract the plugin folder from the downloaded archive into this directory.
+4.  Put builded plugin to plugtins directory.
 5.  Start PowerToys. The plugin should be automatically loaded. You can verify this in the PowerToys Settings > PowerToys Run > Plugins list.
-
-<a name="usage-powertoys"></a>
-### Usage (PowerToys)
-
-1.  Open PowerToys Run (default shortcut: `Alt + Space`).
-2.  Type the activation keyword for the Gemini plugin (e.g., `gem`), followed by your query.
-    * Example: `gem What are the latest AI advancements?`
-3.  Press Enter.
-4.  Your default web browser will open `https://gemini.google.com/app?customquery=What+are+the+latest+AI+advancements%3F` (or the equivalent URL-encoded query).
-
-*(The activation keyword might be configurable. Please check the plugin's settings or documentation if available.)*
-
 ---
 
 ## License
