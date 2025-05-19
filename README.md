@@ -23,7 +23,7 @@ This Chrome Extension enhances the Gemini website (`gemini.google.com`) for deve
 
 <a name="features-chrome"></a>
 ### Features
-* **URL Query Prefill:** Automatically populates the query input field on the Gemini website if a query is provided as a URL parameter (e.g., `gemini.google.com/app?q=your+query`).
+* **URL Query Prefill:** Automatically populates the query input field on the Gemini website if a query is provided as a URL parameter (e.g., `gemini.google.com/app?customquery=your+query`).
 * **Automatic Microphone Activation:** Optionally starts microphone input automatically upon navigation to the Gemini website. (Requires user permission for microphone access).
 
 <a name="developer-installation-chrome"></a>
@@ -71,7 +71,7 @@ A plugin for PowerToys Run enabling developers to quickly launch the Gemini webs
 2.  Type the activation keyword (e.g., `gem`), followed by your query.
     * Example: `gem generate python code for a flask api`
 3.  Press Enter.
-4.  Your browser will open `https://gemini.google.com/app?q=generate+python+code+for+a+flask+api`.
+4.  Your browser will open `https://gemini.google.com/app?customquery=generate+python+code+for+a+flask+api`.
 
 *(The activation keyword might be configurable within the plugin's source or settings.)*
 
